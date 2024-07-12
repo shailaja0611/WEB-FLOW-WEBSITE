@@ -119,11 +119,11 @@ p {
     row-gap: 30PX;
 }
 .A{
-    border: solid;
+    
     width: 300px;
-    border-radius: 10px;
     text-align: center;
     font-size: 10px;
+    
 
 
 }
@@ -132,9 +132,8 @@ p {
     width: 200px;
 }
 .B{
-    border: solid;
+    
     width: 300px;
-    border-radius: 10px;
     text-align: center;
     font-size: 10px;
 }
@@ -143,9 +142,8 @@ p {
     width: 200px;
 }
 .C{
-    border: solid;
+    
     width: 300px;
-    border-radius: 10px;
     text-align: center;
     font-size: 10px;
 }
@@ -154,9 +152,8 @@ p {
     width: 200px;
 }
 .D{
-    border: solid;
+    
     width: 300px;
-    border-radius: 10px;
     text-align: center;
     font-size: 10px;
 }
@@ -165,9 +162,8 @@ p {
     width: 200px;
 }
 .E{
-    border: solid;
+    
     width: 300px;
-    border-radius: 10px;
     text-align: center;
     font-size: 10px;
 }
@@ -176,9 +172,9 @@ p {
     width: 200px;
 }
 .F{
-    border: solid;
+    
     width: 300px;
-    border-radius: 10px;
+    
     text-align: center;
     font-size: 10px;
 }
@@ -187,9 +183,8 @@ p {
     width: 200px;
 }
 .G{
-    border: solid;
+    
     width: 300px;
-    border-radius: 10px;
     text-align: center;
     font-size: 10px;
 }
@@ -198,9 +193,8 @@ p {
     width: 200px;
 }
 .H{
-    border: solid;
+    
     width: 300px;
-    border-radius: 10px;
     text-align: center;
     font-size: 10px;
 }
@@ -209,9 +203,8 @@ p {
     width: 200px;
 }
 .I{
-    border: solid;
+    
     width: 300px;
-    border-radius: 10px;
     text-align: center;
     font-size: 10px;
 }
@@ -220,9 +213,8 @@ p {
     width: 200px;
 }
 .J{
-    border: solid;
+    
     width: 300px;
-    border-radius: 10px;
     text-align: center;
     font-size: 10px;
 }
@@ -231,9 +223,8 @@ p {
     width: 200px;
 }
 .K{
-    border: solid;
+    
     width: 300px;
-    border-radius: 10px;
     text-align: center;
     font-size: 10px;
 }
@@ -242,9 +233,8 @@ p {
     width: 200px;
 }
 .L{
-    border: solid;
+    
     width: 300px;
-    border-radius: 10px;
     text-align: center;
     font-size: 10px;
 }
@@ -253,7 +243,7 @@ p {
     width: 200px;
 }
 .M{
-    border: solid;
+    
     width: 300px;
     border-radius: 10px;
     text-align: center;
@@ -264,9 +254,8 @@ p {
     width: 200px;
 }
 .N{
-    border: solid;
+    
     width: 300px;
-    border-radius: 10px;
     text-align: center;
     font-size: 10px;
 }
@@ -274,11 +263,31 @@ p {
     height: 300px;
     width: 200px;
 }
+.o{
+    
+    width: 300px;
+    text-align: center;
+    font-size: 10px;
+}
+.o img{
+    height: 300px;
+}
+.p{
+    
+  width: 300px;
+  text-align: center;
+  font-size: 10px;
+}
+.p img{
+    height: 300px;
+    width: 200px;    
+    width: 200px;
+}   
 .bgm{
     background-color: #008CFF;
     flex-wrap: wrap;
     height: 300px;
-    width: 1500px;
+    
 }
 .bgm h1{
     font-size: 40px;
@@ -312,6 +321,43 @@ h2 {
 
 p {
     margin-bottom:15px;
+}
+
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.course {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.course-icon img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.course-content h2 {
+    margin: 0 0 10px;
+}
+
+.course-content p {
+   margin: 0%;
 }
 .BB{
     font-size: 20px;
